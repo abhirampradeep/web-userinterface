@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oxygen+Mono&display=swap');
+
+body
+{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;   
+    margin: 0;
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+   
+}
+.hero-bg
+{
+    background: url('../images/food-4.jpeg');
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-bottom: 4em;
+    padding-top: 2em;
+    font-weight: bolder;
+    
+}
+
+.hero-bg p{
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin: 0 1em 3em;
+}
+
+
+header{
+    padding: 0.5em;
+    color: white;
+}
+.hero-bg a{
+    color: white;
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 1.5rem;
+}
+
+.section
+{
+    margin: 0 1em;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 1em 0 1.2em;
+}
+
+h1 span{
+    text-transform: uppercase;
+    display: block;
+    padding: 1em;
+    font-size: 2.5rem;
+}
+.form-left{
+    text-align: center;
+    width: 100%;
+}
+
+
+/* 
+@media only screen and (min-width: 600px) {
+   .form-container{
+       width: 50%;
+   }
+
+  } */
+
+
+.right-col
+{
+    text-align: center;
+}
+#city{
+    width: 100%;
+}
+.form-container{
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    padding: 3em;
+}
+
+label{
+    color: black;
+    font-weight: bolder;
+    display: block;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    
+}
+
+input[type=text]{
+    border: 1.5px solid;
+    /* width: 100%; */
+    padding: 1em 0;
+    display: block;
+    border-radius:0.5em ;
+    margin:auto;
+    margin-top: 1em;
+
+}
+
+.form-container p{
+    color: black;
+    margin-bottom: 1.5em;
+    font-weight: normal;
+    margin-top: .3em;
+}
+
+
+
+input[type=button]
+{
+   background-color:orange;
+   color: white;
+   border: none;
+  
+   border-radius: 1.5em;
+   padding: 1em 0;
+   /* margin: 1em; */
+   width: 100%;
+   font-weight: bolder;
+   font-size: 1.3em;
+   cursor: pointer;
+}
+
